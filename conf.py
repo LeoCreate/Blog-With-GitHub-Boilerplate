@@ -26,13 +26,13 @@ site_build_date = "2019-12-18T16:51+08:00"
 author = "Leo"
 email = "1193886304@qq.com"
 author_homepage = "https://www.leocai.top"
-description = "只坚持一种正义。我的正义。"
+description = "THIS IS MY STORY."
 key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
 language = 'zh-CN'
 external_links = [
     {
-        "name": "Maverick",
-        "url": "https://github.com/AlanDecode/Maverick",
+        "name": "BLOG",
+        "url": "https://www.leocai.top",
         "brief": "🏄‍ Go My Own Way."
     },
     {
