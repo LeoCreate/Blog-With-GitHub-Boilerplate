@@ -27,18 +27,18 @@ author = "Leo"
 email = "1193886304@qq.com"
 author_homepage = "https://www.leocai.top"
 description = "THIS IS MY STORY."
-key_words = ['Maverick', '熊猫小A', 'Galileo', 'blog']
+key_words = ['Wiki', 'Leo', '维基', '知识库']
 language = 'zh-CN'
 external_links = [
     {
         "name": "BLOG",
         "url": "https://www.leocai.top",
-        "brief": "🏄‍ Go My Own Way."
+        "brief": "Leo的个人博客。"
     },
     {
-        "name": "三無計劃",
-        "url": "https://www.imalan.cn",
-        "brief": "熊猫小A的主页。"
+        "name": "GALLERY",
+        "url": "https://img.isolitude.cn",
+        "brief": "Leo的私人图床。"
     }
 ]
 nav = [
