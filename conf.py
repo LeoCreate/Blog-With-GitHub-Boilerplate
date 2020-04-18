@@ -21,7 +21,7 @@ enable_jsdelivr = {
 
 # 站点设置
 site_name = "Leo's Wiki"
-site_logo = "https://assets.isolitude.cn/2020/04/18/e26dd84864ec9.png"
+site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "Leo"
 email = "1193886304@qq.com"
