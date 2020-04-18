@@ -2,17 +2,17 @@
 layout: page
 title: 关于
 slug: about
-date: 2017/06/28 17:26:00
+date: 2018/04/18 16:46:00
 status: publish
-author: AlanDecode
+author: Leo
 categories: 
   - Maverick
   - Dev
 tags: 
-  - theme
+  - about
 ---
 
-这里是我的个人博客，通过 GitHub 管理与构建。
+这里是我的个人维基，通过 GitHub 管理与构建。
 
 
 ## Contact
