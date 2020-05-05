@@ -1,0 +1,407 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Wiki,Leo,维基,知识库" />
+    <meta name="generator" content="Maverick 1.1" />
+    <meta name="template" content="Kepler" />
+    <link rel="alternate" type="application/rss+xml" title="Leo's Wiki &raquo; RSS 2.0" href="/feed/index.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Leo's Wiki &raquo; ATOM 1.0" href="/feed/atom/index.xml" />
+    <link rel="stylesheet" href="/assets/kepler-426969802d.css">
+    <link rel="stylesheet" href="/assets/ExSearch/ExSearch-182e5a8868.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.css">
+    <script>
+        var ExSearchConfig = {
+            root: "",
+            api: "/5c3eabe12d37d869159c6c9c3c271dc6.json"
+        }
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            if(/Safari/.test(navigator.userAgent) && !/Chrome/.test(navigator.userAgent)){
+                document.body.classList.add('safari')
+            }else{
+                document.body.classList.remove('safari')
+            }
+        });
+    </script>
+    
+<title>Markdown基本语法 - Leo's Wiki</title>
+<meta name="author" content="Leo" />
+<meta name="description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。" />
+<meta property="og:title" content="Markdown基本语法 - Leo's Wiki" />
+<meta property="og:description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。" />
+<meta property="og:site_name" content="Leo's Wiki" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/archives/Markdown-basic-syntax/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-05-05T20:47:00-00.00" />
+<meta name="twitter:title" content="Markdown基本语法 - Leo's Wiki" />
+<meta name="twitter:description" content="Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="" />
+
+
+    
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+
+    </head>
+    
+    <body class="content">
+        <header>
+            <div class="container">
+                <section>
+                    <a href="/"><img src="/logo.png">Leo's Wiki</a>
+                </section>
+                <section>
+                    <nav>
+                        <ul>
+                            
+                                <li><a href="https://www.leocai.top" target="_blank">BLOG</a></li>
+                            
+                                <li><a href="https://img.isolitude.cn" target="_blank">GALLERY</a></li>
+                            
+                        </ul>
+                    </nav>
+                </section>
+    
+                <section>
+                    <a hidden class="toggle-toc" target="_self" href="javascript:void(0)" onclick="$(body).toggleClass('toc-open')"><i class="fa fa-align-right"></i></a>
+                    <a hidden class="toggle-navbar" target="_self" href="javascript:void(0)" onclick="$(body).toggleClass('navbar-open')"><i class="fa fa-indent"></i></a>
+                    <button class="search-form-input"><i class="fa fa-search"></i></button>
+                </section>
+            </div>
+        </header>
+
+        <main>
+            <div id="pjax-container" class="container">
+                <aside id="navbar" class="no-scrollbar">
+                    
+                    <section class="sidebar-nav">
+                        
+                            <div class="None" ><span><a href="/">HOME</a></span></div>
+                        
+                            <div class="None" ><span><a href="/archives/">ARCHIVES</a></span></div>
+                        
+                            <div class="None" ><span><a href="/about/">ABOUT</a></span></div>
+                        
+                    </section>
+                    
+                    <section>
+                        
+    <div class="open "><span><a href="/category/建站/">建站</a><button class="toggle_sidebar fa"></button></span><ul><div class="open "><span><a href="/category/Markdown/">Markdown</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="/archives/Markdown-basic-syntax/">Markdown基本语法</a></li></ul></div><div class=" "><span><a href="/category/其它/">其它</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/How-to-use-git-on-a-computer/">如何在电脑上使用 Git</a></li></ul></div></ul></div><div class=" "><span><a href="/category/Maverick/">Maverick</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/typography/">Hello World!</a></li></ul></div>
+
+                    </section>
+                    <section hidden class="sidebar-external-link">
+                        
+                            <div class="external"><span><a href="https://www.leocai.top">BLOG</a><button class="go-external"><i class="fa fa-external-link"></i></button></span></div>
+                        
+                            <div class="external"><span><a href="https://img.isolitude.cn">GALLERY</a><button class="go-external"><i class="fa fa-external-link"></i></button></span></div>
+                        
+                    </section>
+                    <section class="maverick">
+                        <div><span style="border: 1px solid #d4dadf;"><a href="https://github.com/AlanDecode/Maverick" target="_blank">Maverick & Kepler</a></span></div>
+                    </section>
+                </aside>
+                <div id="content-wrapper">
+                    <div id="content">
+    <section>
+        <h1 class="post-title">Markdown基本语法</h1>
+        <p class="post-meta">
+            <time>May 05 2020</time>
+            <span class="tags">
+                
+                <span>
+                    <a href="/tag/博客/">#博客</a>
+                </span>
+                
+            </span>
+        </p>
+        <article class="yue"><blockquote><p>什么是Markdown？
+Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。</p>
+</blockquote>
+<p>从WordPress搬到Typecho后发现编辑器相比起WordPress来说的可视化编辑器并不太好用。之后便了解到了Markdown语法，使用Markdown语法打字可以像敲代码一样进行纯文本的打字，并且展示出来排版简单好看，可以说使用起来十分简单方便快捷。</p>
+<p>Markdown语法简单易学，五分钟可以轻易上手，这里来介绍下Markdown的简单语法。</p>
+<h1>Markdown基本语法</h1>
+<h2>一.标题</h2>
+<p>在想要设置为标题的文字前面加#来表示
+一个#是一级标题，二个#是二级标题，以此类推。支持六级标题。</p>
+<p>注：标准语法一般在#后跟个空格再写文字，貌似本博客不加空格也行。</p>
+<p>示例：</p>
+
+<pre><code># 这是一级标题
+## 这是二级标题
+### 这是三级标题
+#### 这是四级标题
+##### 这是五级标题
+###### 这是六级标题</code></pre>
+<h1>这是一级标题</h1>
+<h2>这是二级标题</h2>
+<h3>这是三级标题</h3>
+<h4>这是四级标题</h4>
+<h5>这是五级标题</h5>
+<h6>这是六级标题</h6>
+<h2>二.字体</h2>
+<ol>
+<li><p>加粗
+要加粗的文字左右分别用两个*号包起来</p>
+</li>
+<li><p>斜体
+要倾斜的文字左右分别用一个*号包起来</p>
+</li>
+<li><p>斜体加粗
+要倾斜和加粗的文字左右分别用三个*号包起来</p>
+</li>
+<li><p>删除线
+要加删除线的文字左右分别用两个~~号包起来</p>
+</li>
+</ol>
+<p>示例：</p>
+
+<pre><code>**这是加粗的文字**
+*这是倾斜的文字*`
+***这是斜体加粗的文字***
+~~这是加删除线的文字~~</code></pre>
+<p><strong>这是加粗的文字</strong>
+<em>这是倾斜的文字</em>`
+<strong><em>这是斜体加粗的文字</em></strong>
+<del>这是加删除线的文字</del></p>
+<h2>三.引用</h2>
+<p>在引用的文字前加&gt;即可。引用也可以嵌套，如加两个&gt;&gt;三个&gt;&gt;&gt;
+n个...
+貌似可以一直加下去，但没神马卵用</p>
+<p>示例：</p>
+
+<pre><code>&gt;这是引用的内容
+&gt;&gt;这是引用的内容
+&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;这是引用的内容</code></pre>
+<blockquote><p>这是引用的内容</p>
+<blockquote><p>这是引用的内容</p>
+<blockquote><blockquote><blockquote><blockquote><blockquote><p>&gt;&gt;&gt;&gt;这是引用的内容</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2>四.分割线</h2>
+<p>三个或者三个以上的 - 或者 * 都可以。</p>
+<p>示例：</p>
+
+<pre><code>---
+----
+***
+*****</code></pre>
+<p>效果如下：
+可以看到，显示效果是一样的。</p>
+<hr>
+<hr>
+<hr>
+<h2>五.图片</h2>
+<p>语法：</p>
+
+<pre><code>![图片alt](图片地址 ''图片title'')
+图片alt就是显示在图片下面的文字，相当于对图片内容的解释。
+图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加</code></pre>
+<p>示例：</p>
+
+<pre><code>![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
+u=702257389,1274025419&amp;fm=27&amp;gp=0.jpg "区块链")</code></pre>
+<p><figure><img data-width="550" data-height="300" src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=702257389,1274025419&fm=27&gp=0.jpg" alt="blockchain" /><figcaption>区块链</figcaption></figure></p>
+<h2>六.超链接</h2>
+<p>语法：</p>
+
+<pre><code>[超链接名](超链接地址 "超链接title")
+title可加可不加</code></pre>
+<p>示例：</p>
+
+<pre><code>[Leo's Blog](https://www.isolitude.cn/)
+title可加可不加</code></pre>
+<p><a href="https://www.isolitude.cn/">Leo's Blog</a></p>
+<h2>七.列表</h2>
+<h3>无序列表</h3>
+<p>语法：
+无序列表用 - + * 任何一种都可以</p>
+
+<pre><code>- 列表内容
++ 列表内容
+* 列表内容
+
+注意：- + * 跟内容之间都要有一个空格</code></pre>
+<p>效果如下：</p>
+<ul>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ul>
+<h3>有序列表</h3>
+<p>语法：
+数字加点</p>
+
+<pre><code>1. 列表内容
+2. 列表内容
+3. 列表内容</code></pre>
+<p>注意：序号跟内容之间要有空格
+效果如下：</p>
+<ol>
+<li>列表内容</li>
+<li>列表内容</li>
+<li>列表内容</li>
+</ol>
+<h3>列表嵌套</h3>
+<p>上一级和下一级之间敲三个空格即可</p>
+<ul>
+<li>一级无序列表内容<ul>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+</ul>
+</li>
+<li>一级无序列表内容<ol>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+</ol>
+</li>
+</ul>
+<ol>
+<li>一级有序列表内容<ul>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+<li>二级无序列表内容</li>
+</ul>
+</li>
+<li>一级有序列表内容<ol>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+<li>二级有序列表内容</li>
+</ol>
+</li>
+</ol>
+<h2>八.表格</h2>
+<p>语法：</p>
+
+<pre><code>表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+
+第二行分割表头和内容。
+- 有一个就行，为了对齐，多加了几个
+文字默认居左
+-两边加：表示文字居中
+-右边加：表示文字居右
+注：原生的语法两边都要用 | 包起来。此处省略</code></pre>
+<p>效果如下：
+表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容</p>
+<h2>九.代码</h2>
+<p>语法：
+单行代码：代码之间分别用一个反引号包起来</p>
+
+<pre><code>`代码内容`</code></pre>
+<p>代码块：
+代码之间分别用三个反引号包起来，且两边的反引号单独占一行</p>
+
+<pre><code>(```)
+  代码...
+  代码...
+  代码...
+(```)</code></pre>
+<blockquote><p>注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。</p>
+</blockquote>
+</article>
+    </section>
+
+    
+    <section id="content-pager">
+        
+        
+            <div class="prev">
+                <a class="card" href="/archives/How-to-use-git-on-a-computer/">
+                    <time>May 03 2020</time>
+                    <span>如何在电脑上使用 Git</span>
+                </a>
+            </div>
+        
+    </section>
+    
+
+    
+
+    <script>
+        document.body.classList.add('content');
+        document.body.classList.remove('archive');
+    </script>
+</div>
+                    <footer>
+                        <span>Copyright © 2020 Leo</span>
+                        
+    
+
+                        
+                    </footer>
+                </div>
+                
+<aside id="toc-container" class="no-scrollbar">
+    <span><i class="fa fa-align-right"></i> CONTENTS</span>
+    <div id="toc"></div>
+</aside>
+
+            </div>
+        </main>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+        <script src="/assets/kepler-ef161b04d5.js"></script>
+        <script>
+            function ExSearchCall(item){
+                if (item && item.length) {
+                    $('.ins-close').click(); // 关闭搜索框
+                    $('input.ins-search-input').val(''); // 清空
+                    let url = item.attr('data-url'); // 获取目标页面 URL
+                    $.pjax({url: url, 
+                        container: '#pjax-container',
+                        fragment: '#pjax-container',
+                        timeout: 8000, }); // 发起一次 PJAX 请求
+                }
+            }
+        </script>
+
+        <!--Valine-->
+        
+
+        <!--ExSearch-->
+        <script src="/assets/ExSearch/ExSearch-493cb9cd89.js"></script>
+        
+        <!--katex-->
+        <link rel="stylesheet" href="/assets/katex.min.css">
+        <script defer src="/assets/katex.min.js"></script>
+        <script>
+        mathOpts = {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "\\[", right: "\\]", display: true},
+                {left: "$", right: "$", display: false},
+                {left: "\\(", right: "\\)", display: false}
+            ]
+        };
+        </script>
+        <script defer src="/assets/auto-render.min.js" onload="renderMathInElement(document.body, mathOpts);"></script>
+
+        
+    </body>
+</html>
