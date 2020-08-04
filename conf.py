@@ -86,3 +86,10 @@ head_addon = r'''
 footer_addon = ''
 
 body_addon = ''
+
+valine = {
+    "enable": True,
+    "el": '#vcomments',
+    "appId": "CCgGA1VOU5S6mS72buMNRpg0-gzGzoHsz",
+    "appKey": "xeKM3U7LQcdWDA2OvtmXHvzK",
+}
