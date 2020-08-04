@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Leo's Wiki</title><link>/</link><description>THIS IS MY STORY.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.png</url><title>Leo's Wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 05 May 2020 12:50:55 +0806</lastBuildDate><pubDate>Tue, 05 May 2020 12:50:55 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Leo's Wiki</title><link>/</link><description>THIS IS MY STORY.</description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>/logo.png</url><title>Leo's Wiki</title><link>/</link></image><language>zh-CN</language><lastBuildDate>Tue, 04 Aug 2020 11:49:50 +0806</lastBuildDate><pubDate>Tue, 04 Aug 2020 11:49:50 +0806</pubDate><item><title>Hello World!</title><link>/archives/typography/</link><description>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -300,4 +300,25 @@ title可加可不加&lt;/code&gt;&lt;/pre&gt;
 (```)&lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;&lt;p&gt;注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。&lt;/p&gt;
 &lt;/blockquote&gt;
-</description><author>1193886304@qq.com (Leo)</author><guid isPermaLink="true">/archives/Markdown-basic-syntax/</guid><pubDate>Tue, 05 May 2020 20:47:00 +0806</pubDate></item></channel></rss>
+</description><author>1193886304@qq.com (Leo)</author><guid isPermaLink="true">/archives/Markdown-basic-syntax/</guid><pubDate>Tue, 05 May 2020 20:47:00 +0806</pubDate></item><item><title>使 Typecho 支持 emoji 表情</title><link>/archives/Typecho-emoji/</link><description>&lt;p&gt;Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
+&lt;h4&gt;1.修改数据库编码&lt;/h4&gt;
+&lt;p&gt;在PhpMyadmin中选择typecho数据库，操作--&amp;gt;排序规则--&amp;gt;选择utf8mb4_unicode_ci然后执行。&lt;/p&gt;
+&lt;h4&gt;2.修改表编码&lt;/h4&gt;
+&lt;p&gt;执行以下sql语句:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_comments&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_contents&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_fields&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_metas&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_options&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_relationships&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="k"&gt;alter&lt;/span&gt; &lt;span class="k"&gt;table&lt;/span&gt; &lt;span class="n"&gt;typecho_users&lt;/span&gt; &lt;span class="k"&gt;convert&lt;/span&gt; &lt;span class="k"&gt;to&lt;/span&gt; &lt;span class="nb"&gt;character&lt;/span&gt; &lt;span class="k"&gt;set&lt;/span&gt; &lt;span class="n"&gt;utf8mb4&lt;/span&gt; &lt;span class="k"&gt;collate&lt;/span&gt; &lt;span class="n"&gt;utf8mb4_unicode_ci&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;h4&gt;3.修改typecho配置文件config.inc.php&lt;/h4&gt;
+&lt;p&gt;把这一行&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;#39;charset&amp;#39;   =&amp;gt;  &amp;#39;utf8&amp;#39;,&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;修改为&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;#39;charset&amp;#39;   =&amp;gt;  &amp;#39;utf8mb4&amp;#39;,&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;然后typecho就可以使用emoji表情了。&lt;/p&gt;
+</description><author>1193886304@qq.com (Leo)</author><guid isPermaLink="true">/archives/Typecho-emoji/</guid><pubDate>Fri, 31 Jul 2020 19:47:00 +0806</pubDate></item></channel></rss>

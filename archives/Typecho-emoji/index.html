@@ -32,19 +32,20 @@
         });
     </script>
     
-<title>Tag: Design - Leo's Wiki</title>
+<title>使 Typecho 支持 emoji 表情 - Leo's Wiki</title>
 <meta name="author" content="Leo" />
-<meta name="description" content="THIS IS MY STORY." />
-<meta property="og:title" content="Tag: Design - Leo's Wiki" />
-<meta property="og:description" content="THIS IS MY STORY." />
+<meta name="description" content="Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。" />
+<meta property="og:title" content="使 Typecho 支持 emoji 表情 - Leo's Wiki" />
+<meta property="og:description" content="Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。" />
 <meta property="og:site_name" content="Leo's Wiki" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="/tag/Design/" />
-<meta property="og:image" content="Leo's Wiki" />
-<meta name="twitter:title" content="Tag: Design - Leo's Wiki" />
-<meta name="twitter:description" content="THIS IS MY STORY." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/archives/Typecho-emoji/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-07-31T19:47:00-00.00" />
+<meta name="twitter:title" content="使 Typecho 支持 emoji 表情 - Leo's Wiki" />
+<meta name="twitter:description" content="Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:image" content="/logo.png" />
+<meta name="twitter:image" content="" />
 
 
     
@@ -53,7 +54,7 @@
 
     </head>
     
-    <body class="archive">
+    <body class="content">
         <header>
             <div class="container">
                 <section>
@@ -95,7 +96,7 @@
                     
                     <section>
                         
-    <div class=" "><span><a href="/category/建站/">建站</a><button class="toggle_sidebar fa"></button></span><ul><div class=" "><span><a href="/category/Typecho/">Typecho</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/Typecho-emoji/">使 Typecho 支持 emoji 表情</a></li></ul></div><div class=" "><span><a href="/category/Markdown/">Markdown</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/Markdown-basic-syntax/">Markdown基本语法</a></li></ul></div><div class=" "><span><a href="/category/其它/">其它</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/How-to-use-git-on-a-computer/">如何在电脑上使用 Git</a></li></ul></div></ul></div><div class=" "><span><a href="/category/Maverick/">Maverick</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/typography/">Hello World!</a></li></ul></div>
+    <div class="open "><span><a href="/category/建站/">建站</a><button class="toggle_sidebar fa"></button></span><ul><div class="open "><span><a href="/category/Typecho/">Typecho</a><button class="toggle_sidebar fa"></button></span><ul><li class="current"><a href="/archives/Typecho-emoji/">使 Typecho 支持 emoji 表情</a></li></ul></div><div class=" "><span><a href="/category/Markdown/">Markdown</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/Markdown-basic-syntax/">Markdown基本语法</a></li></ul></div><div class=" "><span><a href="/category/其它/">其它</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/How-to-use-git-on-a-computer/">如何在电脑上使用 Git</a></li></ul></div></ul></div><div class=" "><span><a href="/category/Maverick/">Maverick</a><button class="toggle_sidebar fa"></button></span><ul><li class=""><a href="/archives/typography/">Hello World!</a></li></ul></div>
 
                     </section>
                     <section hidden class="sidebar-external-link">
@@ -111,38 +112,80 @@
                 </aside>
                 <div id="content-wrapper">
                     <div id="content">
-
     <section>
-        <h1 class="page-title">TAG: #Design</h1>
-        <div id="content-list">
-            
-            <section class="card-list">
+        <h1 class="post-title">使 Typecho 支持 emoji 表情</h1>
+        <p class="post-meta">
+            <time>July 31 2020</time>
+            <span class="tags">
                 
-                    <a class="card" href="/archives/typography/">
-                        <time>December 18 2019</time>
-                        <span>Hello World!</span>
-                    </a>
+                <span>
+                    <a href="/tag/博客/">#博客</a>
+                </span>
                 
-            </section>
-        </div>
+                <span>
+                    <a href="/tag/Typecho/">#Typecho</a>
+                </span>
+                
+            </span>
+        </p>
+        <article class="yue"><p>Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。</p>
+<h4>1.修改数据库编码</h4>
+<p>在PhpMyadmin中选择typecho数据库，操作--&gt;排序规则--&gt;选择utf8mb4_unicode_ci然后执行。</p>
+<h4>2.修改表编码</h4>
+<p>执行以下sql语句:</p>
+<div class="highlight"><pre><span></span><span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_comments</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_contents</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_fields</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_metas</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_options</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_relationships</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+<span class="k">alter</span> <span class="k">table</span> <span class="n">typecho_users</span> <span class="k">convert</span> <span class="k">to</span> <span class="nb">character</span> <span class="k">set</span> <span class="n">utf8mb4</span> <span class="k">collate</span> <span class="n">utf8mb4_unicode_ci</span><span class="p">;</span>
+</pre></div>
+<h4>3.修改typecho配置文件config.inc.php</h4>
+<p>把这一行</p>
+<div class="highlight"><pre><span></span><span class="x">&#39;charset&#39;   =&gt;  &#39;utf8&#39;,</span>
+</pre></div>
+<p>修改为</p>
+<div class="highlight"><pre><span></span><span class="x">&#39;charset&#39;   =&gt;  &#39;utf8mb4&#39;,</span>
+</pre></div>
+<p>然后typecho就可以使用emoji表情了。</p>
+</article>
     </section>
+
+    
+    <section id="content-pager">
+        
+        
+            <div class="prev">
+                <a class="card" href="/archives/Markdown-basic-syntax/">
+                    <time>May 05 2020</time>
+                    <span>Markdown基本语法</span>
+                </a>
+            </div>
+        
+    </section>
+    
 
     
 
     <script>
-        document.body.classList.add('archive');
-        document.body.classList.remove('content');
+        document.body.classList.add('content');
+        document.body.classList.remove('archive');
     </script>
-
 </div>
                     <footer>
                         <span>Copyright © 2020 Leo</span>
                         
+    
+
                         
                     </footer>
                 </div>
                 
-<aside id="toc-container" class="no-scrollbar no-bg"></aside>
+<aside id="toc-container" class="no-scrollbar">
+    <span><i class="fa fa-align-right"></i> CONTENTS</span>
+    <div id="toc"></div>
+</aside>
 
             </div>
         </main>
