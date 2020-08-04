@@ -25,14 +25,14 @@ site_logo = "${static_prefix}logo.png"
 site_build_date = "2019-12-18T16:51+08:00"
 author = "Leo"
 email = "1193886304@qq.com"
-author_homepage = "https://www.leocai.top"
+author_homepage = "https://www.isolitude.cn/"
 description = "THIS IS MY STORY."
 key_words = ['Wiki', 'Leo', '维基', '知识库']
 language = 'zh-CN'
 external_links = [
     {
         "name": "BLOG",
-        "url": "https://www.leocai.top",
+        "url": "https://www.isolitude.cn/",
         "brief": "Leo的个人博客。"
     },
     {
@@ -80,6 +80,7 @@ social_links = [
 head_addon = r'''
 <meta http-equiv="x-dns-prefetch-control" content="on">
 <link rel="dns-prefetch" href="//cdn.jsdelivr.net" />
+<link rel="icon" type="image/ico" href="${static_prefix}wiki.png">
 '''
 
 footer_addon = ''
