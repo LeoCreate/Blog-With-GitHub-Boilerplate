@@ -180,6 +180,14 @@ git push</code></pre>
     
 
     
+        <section id="comments">
+            <div id="vcomments"></div>
+        </section>
+        <script>
+            window.ValineOpt = {"enable": true, "el": "#vcomments", "appId": "CCgGA1VOU5S6mS72buMNRpg0-gzGzoHsz", "appKey": "xeKM3U7LQcdWDA2OvtmXHvzK"};
+            window.ValineOpt.path = window.location.pathname;
+        </script>
+    
 
     <script>
         document.body.classList.add('content');
@@ -224,6 +232,15 @@ git push</code></pre>
         </script>
 
         <!--Valine-->
+        
+            <script>
+                var initValine = function () {
+                    if (typeof window.ValineOpt === 'object' && $(window.ValineOpt.el).length) {
+                        new Valine(window.ValineOpt);
+                    }
+                }
+            </script>
+            <script async src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js' onload="initValine()"></script>
         
 
         <!--ExSearch-->
