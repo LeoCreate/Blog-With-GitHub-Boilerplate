@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Leo's Wiki</title><updated>2020-08-16T11:57:16.556955+08:06</updated><author><name>Leo</name><email>1193886304@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/LeoCreate/LeoWiki@gh-pages/logo.png</logo><subtitle>THIS IS MY STORY.</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-08-16T11:57:16.557253+00:00</updated><author><name>AlanDecode</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN"><id>/</id><title>Leo's Wiki</title><updated>2020-08-16T12:08:02.962191+08:06</updated><author><name>Leo</name><email>1193886304@qq.com</email></author><link href="/" rel="alternate"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><logo>https://cdn.jsdelivr.net/gh/LeoCreate/LeoWiki@gh-pages/logo.png</logo><subtitle>THIS IS MY STORY.</subtitle><entry><id>/archives/typography/</id><title>Hello World!</title><updated>2020-08-16T12:08:02.962490+00:00</updated><author><name>AlanDecode</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;div class="notice"&gt;这是一篇示例文章，在这里你可以看到常用页面元素的显示效果，同时也是 Markdown 语法的参考文章。保留或者删除本文，开始自己的创作吧！&lt;/div&gt;&lt;h2&gt;L2 Heading&lt;/h2&gt;
 &lt;h3&gt;L3 Heading&lt;/h3&gt;
 &lt;h4&gt;L4 Heading&lt;/h4&gt;
 &lt;h5&gt;L5 Heading&lt;/h5&gt;
@@ -78,7 +78,7 @@
 &lt;/table&gt;
 &lt;h2&gt;Link Card&lt;/h2&gt;
 &lt;div class="links"&gt;
-&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/How-to-use-git-on-a-computer/</id><title>如何在电脑上使用 Git</title><updated>2020-08-16T11:57:16.557223+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;h1&gt;设置/安装 Git&lt;/h1&gt;
+&lt;a style="display:block" target="_blank" href="https://www.imalan.cn" class="board-item"&gt;                 &lt;div class="board-thumb"&gt;&lt;img src="https://secure.gravatar.com/avatar/1741a6eef5c824899e347e4afcbaa75d?s=200&amp;r=G&amp;d="&gt;&lt;/div&gt;                 &lt;div class="board-title"&gt;AlanDecode&lt;/div&gt;&lt;/a&gt;&lt;/div&gt;&lt;hr&gt;&lt;div class="footnotes"&gt;&lt;ol&gt;&lt;li id="fn_1"&gt;Home page for AlanDecode &lt;a no-style href="#fn_ref_1"&gt;↩&lt;/a&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;</content><link href="/archives/typography/" rel="alternate"/><published>2019-12-18T16:50:00+08:06</published></entry><entry><id>/archives/How-to-use-git-on-a-computer/</id><title>如何在电脑上使用 Git</title><updated>2020-08-16T12:08:02.962460+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;h1&gt;设置/安装 Git&lt;/h1&gt;
 &lt;p&gt;如果你之前没有使用过 GitHub，那么需要进行一定的设置。
 如果你的电脑是 macOS 或者 Linux，git 可能是默认安装在电脑上的
 如果是 Windows，则需要到&lt;a href="https://git-scm.com/downloads"&gt;这里&lt;/a&gt;下载合适的 Git 安装到电脑上。记得安装时选中将  git 添加到 PATH。&lt;/p&gt;
@@ -104,7 +104,7 @@ git add .
 git commit -m "添加修改"
 git push&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;这样本地的修改就推送到了 GitHub。&lt;/p&gt;
-</content><link href="/archives/How-to-use-git-on-a-computer/" rel="alternate"/><published>2020-05-03T16:55:00+08:06</published></entry><entry><id>/archives/Markdown-basic-syntax/</id><title>Markdown基本语法</title><updated>2020-08-16T11:57:16.557193+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;blockquote&gt;&lt;p&gt;什么是Markdown？
+</content><link href="/archives/How-to-use-git-on-a-computer/" rel="alternate"/><published>2020-05-03T16:55:00+08:06</published></entry><entry><id>/archives/Markdown-basic-syntax/</id><title>Markdown基本语法</title><updated>2020-08-16T12:08:02.962429+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;blockquote&gt;&lt;p&gt;什么是Markdown？
 Markdown是一种纯文本格式的标记语言。通过简单的标记语法，它可以使普通文本内容具有一定的格式。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;从WordPress搬到Typecho后发现编辑器相比起WordPress来说的可视化编辑器并不太好用。之后便了解到了Markdown语法，使用Markdown语法打字可以像敲代码一样进行纯文本的打字，并且展示出来排版简单好看，可以说使用起来十分简单方便快捷。&lt;/p&gt;
@@ -300,7 +300,7 @@ title可加可不加&lt;/code&gt;&lt;/pre&gt;
 (```)&lt;/code&gt;&lt;/pre&gt;
 &lt;blockquote&gt;&lt;p&gt;注：为了防止转译，前后三个反引号处加了小括号，实际是没有的。这里只是用来演示，实际中去掉两边小括号即可。&lt;/p&gt;
 &lt;/blockquote&gt;
-</content><link href="/archives/Markdown-basic-syntax/" rel="alternate"/><published>2020-05-05T20:47:00+08:06</published></entry><entry><id>/archives/Typecho-emoji/</id><title>使 Typecho 支持 emoji 表情</title><updated>2020-08-16T11:57:16.557158+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;p&gt;Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
+</content><link href="/archives/Markdown-basic-syntax/" rel="alternate"/><published>2020-05-05T20:47:00+08:06</published></entry><entry><id>/archives/Typecho-emoji/</id><title>使 Typecho 支持 emoji 表情</title><updated>2020-08-16T12:08:02.962397+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;p&gt;Typecho默认不支持emoji表情，是由于编码的问题，只需要将默认的数据库编码utf8修改为utf8mb4即可，不过utf8mb4编码在PHP5.5以后才支持。&lt;/p&gt;
 &lt;h4&gt;1.修改数据库编码&lt;/h4&gt;
 &lt;p&gt;在PhpMyadmin中选择typecho数据库，操作--&amp;gt;排序规则--&amp;gt;选择utf8mb4_unicode_ci然后执行。&lt;/p&gt;
 &lt;h4&gt;2.修改表编码&lt;/h4&gt;
@@ -321,7 +321,7 @@ title可加可不加&lt;/code&gt;&lt;/pre&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;#39;charset&amp;#39;   =&amp;gt;  &amp;#39;utf8mb4&amp;#39;,&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;然后typecho就可以使用emoji表情了。&lt;/p&gt;
-</content><link href="/archives/Typecho-emoji/" rel="alternate"/><published>2020-07-31T19:47:00+08:06</published></entry><entry><id>/archives/PWA-configuration-tutorial/</id><title>PWA配置教程</title><updated>2020-08-16T11:57:16.557076+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;h1&gt;一、PWA 简介&lt;/h1&gt;
+</content><link href="/archives/Typecho-emoji/" rel="alternate"/><published>2020-07-31T19:47:00+08:06</published></entry><entry><id>/archives/PWA-configuration-tutorial/</id><title>PWA配置教程</title><updated>2020-08-16T12:08:02.962335+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;h1&gt;一、PWA 简介&lt;/h1&gt;
 &lt;p&gt;一个新的前端技术，PWA（ 全称：Progressive Web App ）也就是说这是个渐进式的网页应用程序。
 是 Google 在 2015 年提出，2016年6月才推广的项目。是结合了一系列现代Web技术的组合，在网页应用中实现和原生应用相近的用户体验。&lt;/p&gt;
 &lt;p&gt;PWA官网：&lt;a href="https://developers.google.com/web/progressive-web-apps/"&gt;https://developers.google.com/web/progressive-web-apps/&lt;/a&gt;&lt;/p&gt;
@@ -529,4 +529,112 @@ self.addEventListener('message',event =&amp;gt;{
   )
 });&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;更多文档请参阅官方网站。&lt;/p&gt;
-</content><link href="/archives/PWA-configuration-tutorial/" rel="alternate"/><published>2020-08-16T19:45:00+08:06</published></entry></feed>
+</content><link href="/archives/PWA-configuration-tutorial/" rel="alternate"/><published>2020-08-16T19:45:00+08:06</published></entry><entry><id>/archives/Handsome-theme-beautification/</id><title>Handsome主题美化</title><updated>2020-08-16T12:08:02.962272+00:00</updated><author><name>Leo</name><email>1193886304@qq.com</email><uri>https://www.isolitude.cn/</uri></author><content>&lt;p&gt;Handsome主题是一个很不错的主题，本人结合网络教程对其进行了一定的修改，这里作为存档使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;彩色标签云&lt;/h2&gt;
+&lt;p&gt;使用方法：将以下代码复制粘贴至后台的 外观设定-自定义 JavaScript 处&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;&amp;lt;!--&lt;/span&gt;&lt;span class="nx"&gt;彩色标签云&lt;/span&gt;&lt;span class="o"&gt;--&amp;gt;&lt;/span&gt;
+&lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;tags&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;querySelectorAll&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#tag_cloud-2 a&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;infos&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;document&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;querySelectorAll&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;.badge&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="kd"&gt;let&lt;/span&gt; &lt;span class="nx"&gt;colorArr&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;#428BCA&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#AEDCAE&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#ECA9A7&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#DA99FF&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#FFB380&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;#D9B999&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;];&lt;/span&gt;
+&lt;span class="nx"&gt;tags&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;forEach&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;tag&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;tagsColor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;colorArr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;floor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;random&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nx"&gt;colorArr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;)];&lt;/span&gt;
+    &lt;span class="nx"&gt;tag&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;backgroundColor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;tagsColor&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;span class="nx"&gt;infos&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;forEach&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;info&lt;/span&gt; &lt;span class="p"&gt;=&amp;gt;&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="nx"&gt;infosColor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;colorArr&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="nb"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;floor&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;Math&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;random&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="nx"&gt;colorArr&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;length&lt;/span&gt;&lt;span class="p"&gt;)];&lt;/span&gt;
+    &lt;span class="nx"&gt;info&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nx"&gt;backgroundColor&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nx"&gt;infosColor&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;});&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;给typecho加上心知天气&lt;/h2&gt;
+&lt;p&gt;使用方法：
+1：知心天气官网www.seniverse.com注册申请免费API 密钥
+2：将以下代码放入/usr/themes/handsome/component/headnav.php第55行&lt;code&gt;&amp;lt;!-- / search form --&amp;gt;&lt;/code&gt;之后并更换你的公钥秘钥即可&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="x"&gt;&amp;lt;!-- 知心天气--&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;lt;div id=&amp;quot;tp-weather-widget&amp;quot; class=&amp;quot;navbar-form navbar-form-sm navbar-left shift&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;&amp;lt;script&amp;gt;(function(T,h,i,n,k,P,a,g,e){g=function(){P=h.createElement(i);a=h.getElementsByTagName(i)[0];P.src=k;P.charset=&amp;quot;utf-8&amp;quot;;P.async=1;a.parentNode.insertBefore(P,a)};T[&amp;quot;ThinkPageWeatherWidgetObject&amp;quot;]=n;T[n]||(T[n]=function(){(T[n].q=T[n].q||[]).push(arguments)});T[n].l=+new Date();if(T.attachEvent){T.attachEvent(&amp;quot;onload&amp;quot;,g)}else{T.addEventListener(&amp;quot;load&amp;quot;,g,false)}}(window,document,&amp;quot;script&amp;quot;,&amp;quot;tpwidget&amp;quot;,&amp;quot;//widget.seniverse.com/widget/chameleon.js&amp;quot;))&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;&amp;lt;script&amp;gt;tpwidget(&amp;quot;init&amp;quot;, {&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;flavor&amp;quot;: &amp;quot;slim&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;location&amp;quot;: &amp;quot;WX4FBXXFKE4F&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;geolocation&amp;quot;: &amp;quot;enabled&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;language&amp;quot;: &amp;quot;auto&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;unit&amp;quot;: &amp;quot;c&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;theme&amp;quot;: &amp;quot;chameleon&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;container&amp;quot;: &amp;quot;tp-weather-widget&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;bubble&amp;quot;: &amp;quot;enabled&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;alarmType&amp;quot;: &amp;quot;badge&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;color&amp;quot;: &amp;quot;#C6C6C6&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;uid&amp;quot;: &amp;quot;公钥&amp;quot;,&lt;/span&gt;
+&lt;span class="x"&gt;    &amp;quot;hash&amp;quot;: &amp;quot;密钥&amp;quot;&lt;/span&gt;
+&lt;span class="x"&gt;});&lt;/span&gt;
+&lt;span class="x"&gt;tpwidget(&amp;quot;show&amp;quot;);&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;span class="x"&gt;&amp;lt;!-- 知心结束--&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;代码高亮&lt;/h2&gt;
+&lt;p&gt;Typecho代码高亮插件Code Prettify:
+&lt;a href="https://www.xcnte.com/archives/523/"&gt;https://www.xcnte.com/archives/523/&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;打字特效&lt;/h2&gt;
+&lt;p&gt;这是一个插件ActivatePowerMode，评论、文章与页面编辑界面都可以使用。
+&lt;a href="https://github.com/AlanDecode/Typecho-Plugin-ActivatePowerMode"&gt;https://github.com/AlanDecode/Typecho-Plugin-ActivatePowerMode&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;手机中不显示标签云与热门信息&lt;/h2&gt;
+&lt;p&gt;方法：将以下代码添加至后台-开发者设置-自定义CSS。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;@&lt;/span&gt;&lt;span class="k"&gt;media&lt;/span&gt; &lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;max-width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;767px&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;tabs-4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;tag_cloud-2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;blog_info&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="k"&gt;display&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;none&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章标题美化&lt;/h2&gt;
+&lt;p&gt;方法：将以下代码添加至后台-开发者设置-自定义CSS。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;/*&lt;/span&gt;
+&lt;span class="c"&gt; * 文章一二三四级标题美化&lt;/span&gt;
+&lt;span class="c"&gt; */&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h1&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;relative&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;32&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="cp"&gt;!important&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;1.55&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h3&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h4&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;font-size&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;15&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;after&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;transition&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;all&lt;/span&gt; &lt;span class="mf"&gt;.35&lt;/span&gt;&lt;span class="kt"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;background&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nb"&gt;linear-gradient&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mh"&gt;#3c67bd&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="kt"&gt;%&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mh"&gt;#3c67bd&lt;/span&gt; &lt;span class="mi"&gt;70&lt;/span&gt;&lt;span class="kt"&gt;%&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;left&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;box-shadow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="nb"&gt;rgba&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;32&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;160&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;255&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;.4&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;&lt;span class="k"&gt;height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;bottom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;-8&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;before&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;content&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="kt"&gt;%&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;border-bottom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="kc"&gt;solid&lt;/span&gt; &lt;span class="mh"&gt;#eee&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;bottom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;-7&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="kc"&gt;absolute&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;hover&lt;/span&gt;&lt;span class="p"&gt;::&lt;/span&gt;&lt;span class="nd"&gt;after&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;width&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;2.5&lt;/span&gt;&lt;span class="kt"&gt;em&lt;/span&gt;&lt;span class="p"&gt;;}&lt;/span&gt;
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h1&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h2&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h3&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h4&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h5&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;h6&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="k"&gt;color&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mh"&gt;#666&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;line-height&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mf"&gt;1.4&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;font-weight&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;700&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;&lt;span class="k"&gt;margin&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="mi"&gt;30&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;首页文章列表悬停上浮&lt;/h2&gt;
+&lt;p&gt;方法：将以下代码添加至后台-开发者设置-自定义CSS。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;/*&lt;/span&gt;
+&lt;span class="c"&gt; *  首页文章列表悬停上浮&lt;/span&gt;
+&lt;span class="c"&gt; */&lt;/span&gt;
+&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;blog-post&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;panel&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;not&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;article&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;transition&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;all&lt;/span&gt; &lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="kt"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;blog-post&lt;/span&gt; &lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;panel&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;not&lt;/span&gt;&lt;span class="o"&gt;(&lt;/span&gt;&lt;span class="nt"&gt;article&lt;/span&gt;&lt;span class="o"&gt;)&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;hover&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;translateY&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;-10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+    &lt;span class="k"&gt;box-shadow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="mi"&gt;8&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt; &lt;span class="nb"&gt;rgba&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;73&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;90&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;47&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.47&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+&lt;h2&gt;文章内头图和文章图片悬停放大并将超出范围隐藏&lt;/h2&gt;
+&lt;p&gt;方法：将以下代码添加至后台-开发者设置-自定义CSS。&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c"&gt;/*&lt;/span&gt;
+&lt;span class="c"&gt; *  文章内头图和文章图片悬停放大并将超出范围隐藏&lt;/span&gt;
+&lt;span class="c"&gt; */&lt;/span&gt;
+&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;entry-thumbnail&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;overflow&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;hidden&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;img&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;border-radius&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="kt"&gt;px&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+    &lt;span class="k"&gt;transition&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="kt"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+
+&lt;span class="p"&gt;#&lt;/span&gt;&lt;span class="nn"&gt;post-content&lt;/span&gt; &lt;span class="nt"&gt;img&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="nd"&gt;hover&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+    &lt;span class="k"&gt;transform&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;scale&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mf"&gt;1.05&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+</content><link href="/archives/Handsome-theme-beautification/" rel="alternate"/><published>2020-08-16T20:04:00+08:06</published></entry></feed>
