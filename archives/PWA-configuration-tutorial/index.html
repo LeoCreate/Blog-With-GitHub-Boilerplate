@@ -19,7 +19,7 @@
     <script>
         var ExSearchConfig = {
             root: "",
-            api: "https://cdn.jsdelivr.net/gh/LeoCreate/LeoWiki@gh-pages/2703aa7fa95fa4096c1b6ef4aa95ba24.json"
+            api: "https://cdn.jsdelivr.net/gh/LeoCreate/LeoWiki@gh-pages/dcc32f180135b3a40e163d5e83cfd1c0.json"
         }
     </script>
     <script>
@@ -255,9 +255,10 @@ self.addEventListener('fetch', function(event) {});</code></pre>
 <p>注：其余配置与上文简单配置内容一致，此策略与上文一致。</p>
 
 <pre><code>//不缓存策略
-self.addEventListener('fetch', function(event) {});
-3.2.2 总是更新策略
-注：其余配置与上文简单配置内容一致，仅需将 fetch 事件修改如下。
+self.addEventListener('fetch', function(event) {});</code></pre>
+<h3>3.2.2 总是更新策略</h3>
+
+<pre><code>注：其余配置与上文简单配置内容一致，仅需将 fetch 事件修改如下。
 
 //总是更新策略
 self.addEventListener('fetch', function(event) {
